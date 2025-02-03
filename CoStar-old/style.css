@@ -1,0 +1,465 @@
+/* login */
+.nav-link {
+    color: #ffffff; /* White color for navigation links */
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: #4F46E5; /* Change color on hover */
+}
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.form-input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #d1d5db;
+}
+.form-submit {
+    background-color: #4F46E5;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.form-submit:hover {
+    background-color: #4338CA;
+}
+.google-btn {
+    background-color: #DB4437 !important; /* Google Red */
+}
+.google-btn:hover {
+    background-color: #d93025 !important; /* Darker shade on hover */
+}
+.footer-social-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #4F46E5;
+    color: white;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+}
+
+.footer-social-icon:hover {
+    transform: scale(1.2);
+}
+
+
+/* about */
+
+/* Custom styles */
+.feature-icon {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.feature-description {
+    color: #6B7280;
+    margin-bottom: 1.5rem;
+}
+/* Navigation bar */
+nav {
+    background-color: #000000; /* Black background color */
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+nav img.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+nav a {
+    color: #f3f4f6; /* White color for navigation links */
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    margin-left: 20px; /* Add spacing between navigation items */
+    text-decoration: none;
+}
+nav a:hover {
+    color: #4f46e5; /* Change color on hover to light purple */
+}
+/* Animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+.bounce {
+    animation: bounce 1s infinite;
+}
+/* Magic effects */
+.magic-effect {
+    transition: transform 0.3s ease;
+}
+.magic-effect:hover {
+    transform: rotate(360deg);
+}
+.footer-social-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #4F46E5;
+    color: white;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+}
+
+.footer-social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* overview */
+/* Custom styles */
+.nav-link {
+    color: #ffffff;
+    /* White color for navigation links */
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #4F46E5;
+    /* Change color on hover */
+}
+
+.feature-icon {
+    font-size: 3rem;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #d1d5db;
+}
+
+.cta-btn {
+    background-color: #4F46E5;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #4338CA;
+}
+
+.footer-social-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #4F46E5;
+    color: white;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+}
+
+.footer-social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Animation for h1 */
+@keyframes changeColor {
+    0% {
+        color: #4F46E5;
+    }
+
+    25% {
+        color: #8B5CF6;
+    }
+
+    50% {
+        color: #EC4899;
+    }
+
+    75% {
+        color: #F59E0B;
+    }
+
+    100% {
+        color: #10B981;
+    }
+}
+
+.colorful-heading {
+    animation: changeColor 5s infinite;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .grid-cols-1.md\:grid-cols-2 {
+        grid-template-columns: 1fr;
+    }
+}
+
+.responsive-image-center {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Logo Animation */
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+/* product */
+/* Custom styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #4F46E5; /* Light gray border */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.5s ease;
+    transition: background-color 0.5s ease; /* Indicate clickable behavior */
+}
+.button:hover {
+    background-color: #4338CA;
+    color: #ffffff; /* Darker purple background on hover */
+    outline: 2px solid #7986cb; /* Purple outline on hover */
+}
+
+.nav-link {
+    color: #ffffff; /* White color for navigation links */
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: #4F46E5; /* Change color on hover */
+}
+.get-started-btn {
+    background-color: #4F46E5;
+    color: white;
+    padding: 1.5rem 3rem; /* Adjusted padding for larger button */
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: 1.25rem; /* Adjusted font size for larger button */
+}
+.get-started-btn:hover {
+    background-color: #4338CA;
+}
+.feature {
+    border: 2px solid #4F46E5;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+.feature:hover {
+    transform: translateY(-5px);
+}
+.feature-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.game {
+    background-color: #F3F4F6;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.game:hover {
+    transform: translateY(-5px);
+}
+.game-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.game-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.game-link {
+    background-color: #4F46E5;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.game-link:hover {
+    background-color: #4338CA;
+}
+.footer-social-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #4F46E5;
+    color: white;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+}
+
+.footer-social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* signup */
+/* Custom styles */
+.nav-link {
+    color: #ffffff; /* White color for navigation links */
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: #4F46E5; /* Change color on hover */
+}
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.form-input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #d1d5db;
+}
+.form-submit {
+    background-color: #4F46E5;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.form-submit:hover {
+    background-color: #4338CA;
+}
+.footer-social-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #4F46E5;
+    color: white;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+}
+
+.footer-social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* trynow */
+/* Custom styles */
+.nav-link {
+    color: #ffffff; /* White color for navigation links */
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: #4F46E5; /* Change color on hover */
+}
+.trynow-section {
+    background-color: #F3F4F6;
+}
+.trynow-btn {
+    background-color: #4F46E5;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.trynow-btn:hover {
+    background-color: #4338CA;
+    animation: heartbeat 1s infinite;
+}
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+/* Additional Features section */
+.feature-card {
+    transition: transform 0.3s ease;
+}
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+.footer-social-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #4F46E5;
+    color: white;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+}
+
+.footer-social-icon:hover {
+    transform: scale(1.2);
+}
